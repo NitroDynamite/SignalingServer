@@ -1,5 +1,13 @@
 {
+  "name": "SignalingServer",
+  "version": "1.0.0",
   "dependencies": {
     "websocket": "^1.0.35"
+  },
+  "scripts": {
+    "start": "node SignalingServer" 
+  },
+  "engines": {
+    "node": "v20.18.0" 
   }
 }
