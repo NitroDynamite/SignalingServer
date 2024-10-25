@@ -1,2 +1,5 @@
-C:\Users\ryanv\Defiled\UDPTests\SignalingServer\node_modules/
+#folders to ignore
+node_modules/
+
+#files to ignore
 package-lock.json/
