@@ -1,13 +1,17 @@
 {
   "name": "SignalingServer",
   "version": "1.0.0",
+  "description": "A simple signaling server using WebSocket",
+  "main": "signaling-server.js",
   "dependencies": {
     "websocket": "^1.0.35"
   },
   "scripts": {
-    "start": "node SignalingServer" 
+    "start": "node signaling-server.js" 
   },
   "engines": {
-    "node": "v20.18.0" 
-  }
+    "node": "v20.18.0"
+  },
+  "author": "NitroDynamite",
+  "license": "MIT"
 }
