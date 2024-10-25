@@ -1,6 +1,6 @@
 # Steps to Create Signal Server Files
 
-1. **Create `signaling-server.js`:**
+1. **Create `server.js`:**
    - Open your code editor.
    - Create a new file named `server.js`.
    - Add your server code
@@ -17,3 +17,5 @@
 4. **Install Dependencies:**
    - Run the following command to install required packages:
      npm install
+     
+5.	Add package-lock.json and node_modules to .gitignore

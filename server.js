@@ -58,7 +58,7 @@ wsServer.on('request', (req) => {
 });
 
 // Define the port and hostname
-const port = process.env.PORT || 8000; // Automatically gets the port from Render or defaults to 8000
+const port = process.env.PORT || 10000; // Automatically gets the port from Render or defaults to 8000
 const hostname = '0.0.0.0'; // Allows access from any IP address
 
 // Start the HTTP server and log a message once it's ready
