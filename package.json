@@ -2,12 +2,12 @@
   "name": "SignalingServer",
   "version": "1.0.0",
   "description": "A simple signaling server using WebSocket",
-  "main": "signaling-server.js",
+  "main": "server.js",
   "dependencies": {
     "websocket": "^1.0.35"
   },
   "scripts": {
-    "start": "node signaling-server.js" 
+    "start": "node server.js" 
   },
   "engines": {
     "node": "v20.18.0"
